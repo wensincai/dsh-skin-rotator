@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "dsh-skin-rotator",
     "version":  "0.1.1",
     "description":  "Dynamic background skin for DSH web: rotates images from a local folder every 30 seconds",
