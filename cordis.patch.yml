@@ -1,0 +1,5 @@
+# dsh-skin-rotator bundle layer: mount the host half (image route) and the
+# client half (background rotation) as one plugin row.
+- insert:
+    - id: skin-rotator
+      name: dsh-skin-rotator

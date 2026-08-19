@@ -1,0 +1,12 @@
+# 运行时数据：你的私人壁纸/背景图，不入库（皮肤是"自带图片"型）
+# 部署后把图片复制进 images/ 即可，仓库只保留 images/README.md
+images/*
+!images/README.md
+
+# 本地辅助脚本
+images/rename.py
+
+# 通用
+node_modules/
+*.log
+.DS_Store
