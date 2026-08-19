@@ -1,29 +1,31 @@
-{
-  "name": "dsh-skin-rotator",
-  "version": "0.1.0",
-  "description": "Dynamic background skin for DSH web: rotates images from a local folder every 30 seconds",
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./client": "./lib/client.js",
-    "./cordis.patch.yml": "./cordis.patch.yml",
-    "./package.json": "./package.json"
-  },
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web",
-      "inject": []
-    }
-  },
-  "files": [
-    "lib",
-    "images",
-    "cordis.patch.yml",
-    "README.md"
-  ],
-  "license": "MIT"
+﻿{
+    "name":  "dsh-skin-rotator",
+    "version":  "0.1.1",
+    "description":  "Dynamic background skin for DSH web: rotates images from a local folder every 30 seconds",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./client":  "./lib/client.js",
+                    "./cordis.patch.yml":  "./cordis.patch.yml",
+                    "./package.json":  "./package.json"
+                },
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "platform":  "web",
+                               "inject":  [
+
+                                          ]
+                           }
+            },
+    "files":  [
+                  "lib",
+                  "images",
+                  "cordis.patch.yml",
+                  "README.md"
+              ],
+    "license":  "MIT"
 }
